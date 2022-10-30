@@ -1,0 +1,26 @@
+{
+  "name": "voting-app",
+  "version": "1.0.0",
+  "description": "Build a Voting App",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd server && npm start\" \"cd client && npm start\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yellowflash2041/Assassin-War.git"
+  },
+  "keywords": [
+    "freecodecamp"
+  ],
+  "author": "yellowflash2041",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yellowflash2041/Assassin-War/issues"
+  },
+  "homepage": "https://github.com/yellowflash2041/Assassin-War#readme",
+  "dependencies": {
+    "concurrently": "^6.5.1"
+  }
+}
